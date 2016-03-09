@@ -99,7 +99,7 @@ func main() {
 			fmt.Printf("Offset:\t%d ", msg.Offset)
 			fmt.Printf("Key:\t%s ", string(msg.Key))
 			fmt.Printf("Value:\t%s ", string(msg.Value))
-			fmt.Println()
+//			fmt.Println()
 		}
 	}()
 
