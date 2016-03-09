@@ -17,6 +17,19 @@ Compilation:
  
 Running:
 
-0. You need to have kafka and zookeeper running as a prerequisite
+0. You need to have kafka and zookeeper running as a prerequisite(see below)
 1. $HOME/bin/producer -topic=test -value=test-message -brokers=localhost:9092
 2. $HOME/bin/consumer -topic=test -brokers=localhost:9092
+
+Kafka Setup:
+
+Start by downloading the Kafka tarball from here -
+http://kafka.apache.org/downloads.html
+untar it and you're ready to go.
+
+Start Zookeeper:
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Now start the Kafka server:
+bin/kafka-server-start.sh config/server.properties
+
