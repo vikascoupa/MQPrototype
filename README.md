@@ -11,12 +11,15 @@ Example installation for development
 6. cd $HOME/src/MQPrototype
 
 Compilation:
+
 1. go install MQPrototype/producer
 
 2. go install MQPrototype/producer
  
 Running:
+
 0. You need to have kafka and zookeeper running as a prerequisite
 
 1. $HOME/bin/producer -topic=test -value=test-message -brokers=localhost:9092
+
 2. $HOME/bin/consumer -topic=test -brokers=localhost:9092
