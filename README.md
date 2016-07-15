@@ -13,7 +13,7 @@ Example installation for development
 Compilation:
 
 1. go install MQPrototype/producer
-2. go install MQPrototype/producer
+2. go install MQPrototype/consumer
  
 Running:
 
